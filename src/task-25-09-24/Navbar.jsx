@@ -10,20 +10,20 @@ const Navbar = () => {
 
           <img src={Myimage} alt="" height={20} width={200} className="mb-1" />
           <li className="pt-7  text-2l underline-expand text-white-10 font-semibold active:text-yellow-600 ">
-          <Link  className="px-4 py-2 mx-2 rounded text-white"to={"/Home"}> Home
-          </Link></li>
+            <Link className="px-4 py-2 mx-2 rounded text-white" to={"/Home"}> Home
+            </Link></li>
           <li className="pt-7  text-2l underline-expand text-white-10 font-semibold active:text-yellow-600 ">
-          <Link  className="px-4 py-2 mx-2  rounded text-white"to={"/About"}> 
-          About </Link></li>
+            <Link className="px-4 py-2 mx-2  rounded text-white" to={"/About"}>
+              About </Link></li>
           <li className="pt-7  text-2l underline-expand text-white-10 font-semibold active:text-yellow-600 ">Resume</li>
 
-         
-          <li className="pt-7  text-2l underline-expand text-white-10 font-semibold active:text-yellow-600 ">Contact</li>
 
+          <li className="pt-7  text-2l underline-expand text-white-10 font-semibold active:text-yellow-600 ">
+            <Link className="px-4 py-2 mx-2  rounded text-white" to={"/Contact"}>Contact</Link></li>
         </ul>
       </div>
     </div>
-    
+
   );
 };
 
