@@ -20,15 +20,15 @@ const RouterEx = () => {
                     <Route index element={<Home />} />
                     <Route path="/nav/About" element={<About />} />
                     <Route path="/nav/Contact/sideBar/" element={<Contact />}>
-                            <Route path="/nav/Contact/sideBar/Github" element={<Github />} />
-                            <Route path="/nav/Contact/sideBar/LinkedIn" element={<LinkedIn />} />
-                            <Route path="/nav/Contact/sideBar/Whatsapp" element={<Whatsapp />} />
-                            <Route path="/nav/Contact/sideBar/Gmail" element={<Gmail />} />
-                        </Route>
-                        <Route path="/nav/Resume" element={<Resume />} />
-
-                        <Route path="*" element={<PageNotFound />} />
+                        <Route path="/nav/Contact/sideBar/Github" element={<Github />} />
+                        <Route path="/nav/Contact/sideBar/LinkedIn" element={<LinkedIn />} />
+                        <Route path="/nav/Contact/sideBar/Whatsapp" element={<Whatsapp />} />
+                        <Route path="/nav/Contact/sideBar/Gmail" element={<Gmail />} />
                     </Route>
+                    <Route path="/nav/Resume" element={<Resume />} />
+
+                    <Route path="*" element={<PageNotFound />} />
+                </Route>
             </Routes>
         </div>
     )
