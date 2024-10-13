@@ -16,7 +16,7 @@ const RouterEx = () => {
         <div>
             {/* <Navbar/> */}
             <Routes>
-                <Route path="/nav" element={<HomeIndex />}>
+                <Route path="/" element={<HomeIndex />}>
                     <Route index element={<Home />} />
                     <Route path="/nav/About" element={<About />} />
                     <Route path="/nav/Contact/sideBar/" element={<Contact />}>
